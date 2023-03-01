@@ -1,0 +1,42 @@
+<div class="items-wrapper">
+  <app-button
+    class="app-button"
+    text="Base model 670hp 89'300$"
+    (btnClick)="handleClick(89300, $event)"
+    >
+  </app-button>
+  <app-button
+    class="app-button"
+    text="Additional battery capacity 9'870$"
+    (btnClick)="handleClick(777, $event)"
+    >
+  </app-button>
+  <app-button
+    class="app-button"
+    text="1020hp engine +4'700$"
+    (btnClick)="handleClick(4700, $event)"
+    >
+  </app-button>
+  <app-button
+    class="app-button"
+    text="Super Tesla TBL music system 800$"
+    (btnClick)="handleClick(800, $event)"
+    >
+  </app-button>
+  <app-button
+  class="app-button"
+  text="22'' wheeeeeels for extra 2'200$"
+  (btnClick)="handleClick(2200, $event)"
+  >
+</app-button>
+<app-button
+class="app-button"
+text="Leather wheel cover  2'222$"
+(btnClick)="handleClick(2222, $event)"
+>
+</app-button>
+  <div class="totalPriceContainer">
+    <h3>Total:</h3>
+    <h3>{{totalPrice+" $"}}</h3>
+  </div>
+</div>
